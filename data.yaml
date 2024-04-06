@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bacterial Spot', 'Early Blight', 'Healthy', 'Iron Deficiency', 'Late Blight', 'Leaf Mold', 'Leaf_Miner', 'Mosaic Virus', 'Septoria', 'Spider Mites', 'Yellow Leaf Curl Virus']
+
+roboflow:
+  workspace: forfun-cyh93
+  project: tomatoes_diseases
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/forfun-cyh93/tomatoes_diseases/dataset/1
